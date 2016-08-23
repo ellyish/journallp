@@ -22,7 +22,7 @@
         flex-wrap: wrap;
         align-content: center;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPElEQVQYV2NkIA5IMhKhTpKBgeE5IYVgRSDD8CmEK8KnEEURLoUYirApxKoIXSFORcgK8SqCKSSoCKQQAI9pCSQZzIwgAAAAAElFTkSuQmCC);
-     
+      
 
       }
 
@@ -52,6 +52,36 @@
         color: rgb(126, 120, 145);
       }
 
+      .s1 input[type="text"] {
+        outline: none;
+        width: 30%;
+        margin: 10px 0px;
+        height: 24px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        padding:4px;
+      }
+
+      .s1 input[type="submit"] {
+        outline: none;
+        height: 34px;
+        padding: 0px 5px;
+        margin:0px 5px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        background-color: #fafafa;
+      }
+
+      .s1 input[type="submit"]:hover {
+        outline: none;
+        height: 34px;
+        padding: 0px 5px;
+        margin:0px 5px;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        background-color: #fafafa;
+
+      }
 
       .s2 {
         display: flex;
@@ -85,14 +115,33 @@
       .section:nth-child(odd) {
           background-color: #fafafa;
       }
+
+/*      .curtain {
+        height: 100%;
+        background: #000;
+        position: absolute;
+        width: 100%;
+        opacity: 0.6;
+        top:0px;
+        left: 0px;
+      }*/
   </style>
+
+
 </head>
 <body>
 
+
   <div class="section s1">
+
     <div class="logo"><img src="logo.png" alt=""></div>
     <div class="slogan1">Write Better Text, Intellgently </div>
+
     <div class="slogan2">context-rich articles with accurate information.</div>
+
+    <div><input id="signup" type="text" placeholder="signup for beta version"><input type="submit"></div>
+
+
   </div>
   <div class="section s2">
     <div class="image"><img src="s2.png" alt=""></div>
@@ -115,6 +164,12 @@
 
     <div class="image"><img src="data.png" alt=""></div>
   </div>
-  
+    <script>
+    
+    // document.getElementById('signup').addEventListener('focus',function (evt) {
+      
+    // })
+
+  </script>
 </body>
 </html>
