@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Journal Text</title>
+
+  <style>
+
+      * {
+        padding:0px;
+        margin: 0px;
+      }
+      
+      .section {
+        height: 100vh;
+        padding: 0% 10%;
+      }
+
+
+      .s1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPElEQVQYV2NkIA5IMhKhTpKBgeE5IYVgRSDD8CmEK8KnEEURLoUYirApxKoIXSFORcgK8SqCKSSoCKQQAI9pCSQZzIwgAAAAAElFTkSuQmCC);
+     
+
+      }
+
+
+
+      .s1 > div {
+        flex-basis: 100%;
+      }
+
+      .s1 > .logo > img {
+        width: 100px;
+      }
+    
+
+      .s1 > .slogan1 {
+          font-size: 28px;
+          font-family: "Lato";
+          color: rgb(77, 54, 149);
+          font-weight: bold;
+
+      } 
+
+
+      .s1 > .slogan2 {
+        font-size: 25;
+        font-family: "Lato";
+        color: rgb(126, 120, 145);
+      }
+
+
+      .s2 {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+
+      .s2 > div {
+        flex-basis: 50%;
+      }
+
+
+
+      .s2 > .image > img {
+        
+        width:100%;
+
+      }
+
+      
+      .s2 > .text {
+        display: flex;
+        justify-content: center;
+          font-size: 24px;
+          font-family: "Lato";
+          color: rgb(77, 54, 149);
+
+      }
+
+
+      .section:nth-child(odd) {
+          background-color: #fafafa;
+      }
+  </style>
+</head>
+<body>
+
+  <div class="section s1">
+    <div class="logo"><img src="logo.png" alt=""></div>
+    <div class="slogan1">Write Better Text, Intellgently </div>
+    <div class="slogan2">context-rich articles with accurate information.</div>
+  </div>
+  <div class="section s2">
+    <div class="image"><img src="s2.png" alt=""></div>
+    <div class="text">Named Entity Recognition</div>
+  </div>
+
+  <div class="section s2">
+    <div class="text">Named Entity Recognition</div>
+
+    <div class="image"><img src="hover.png" alt=""></div>
+  </div>
+
+  <div class="section s2">
+    <div class="image"><img src="suggested.png" alt=""></div>
+    <div class="text">Named Entity Recognition</div>
+  </div>
+
+  <div class="section s2">
+    <div class="text">Named Entity Recognition</div>
+
+    <div class="image"><img src="data.png" alt=""></div>
+  </div>
+  
+</body>
+</html>
